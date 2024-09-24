@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.demo{
+    background: linear-gradient(purple, blue);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.container > article{
+    width: 85%;
+    margin: 30px auto;
+}
+table{
+    width: 100%;
+}
+table,
+td,
+th,
+tr{
+    border: 1px solid none;
+    border-collapse: collapse;
+    padding: 20px;
+}
+th{
+    background: black;
+    color: white;
+    border: 1px solid black;
+}
+td{
+    color: black;
+}
+td:hover{
+    background: rgb(132, 154, 154);
+    color: black;
+    cursor: pointer;
+}
+tr:nth-child(even){
+    background-color: antiquewhite;
+}
+tr:nth-child(odd){
+    background-color: wheat;
+}

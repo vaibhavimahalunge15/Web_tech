@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+.demo{
+    background:white;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.container > article{
+    width: 85%;
+    margin: 30px auto;
+}
+table{
+    width: 100%;
+}
+table,
+td,
+th,
+tr
+{
+    border: 1px solid  white ;
+    border-collapse: collapse;
+    padding: 20px;
+}
+th{
+    background-color: blueviolet;
+}
+tr:nth-child(even){
+    background-color: bisque;
+}
+tr:nth-child(odd){
+    background-color: aliceblue;
+}
+th{
+    color: white;
+}
+
