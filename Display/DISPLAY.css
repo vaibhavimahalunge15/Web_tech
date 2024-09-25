@@ -1,0 +1,46 @@
+.s1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    /* display: block; */
+    display: inline-block;
+}
+
+.h1{
+    display: inline;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.para{
+    display: none;
+    /* visibility: hidden; */
+}
+
+
+
+
+                            /* --------DISPLAY-------- */
+/* DISPLAY PROPERTIES
+ 1.INLINE
+ 2.BLOCK
+ INLINE BLOCK
+ CONTENT
+ FLEX
+ GRID
+*/
+                          /* -------FLEX--------- */
+/* flex-direction
+row, column, row reverse, column reverse */
+
+/* ALIGN ITEMS(ROW-->VERTICAL, COLUMN-->HORIZONTAL)
+ START, END, CENTER */
+
+/* JUSTIFY CONTENT (ROW-->HORIZONTAL, COLUMN-->VERTICAL)
+ START, END, CENTER, SPACE BETWEEN, SPACE AROUND, SPACE EVENLY  */
+
+ /* FLEX-BASIC------> TARGET CHILD ELEMENT
+ WIDTH---> FLEX BASIC ROW
+ HEIGHT---> FLEX BASIC HEIGHT
+ */
