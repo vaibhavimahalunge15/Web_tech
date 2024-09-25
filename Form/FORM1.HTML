@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM MAKING</title>
+</head>
+<body>
+    <H1>LOGIN</H1>
+    <FORM action="./INDEX.HTML"> 
+        <INPUT
+        type="text"
+        id="username"
+        placeholder="enter username"
+        required></INPUT>
+        <br/>
+
+        <br/>
+        <INPUT
+        type="password"
+        id="password"
+        placeholder="enter password"
+        required></INPUT>
+        <br/>
+
+        <br/>
+        <label for="DOB">select date of birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br/>
+
+        <br/>
+        <span>select gender:</span>
+        <input type="radio" name="gender" id="male" value="male" required> male
+        <input type="radio" name="gender" id="female" value="female" required> female
+        <input type="radio" name="gender" id="other" value="other" required> other
+        <br/>
+
+        <br/>
+        <span>select course:</span>
+        <input type="checkbox" name="course" id="java" value="java" required> java
+        <input type="checkbox" name="course" id="html" value="html" required> html
+        <input type="checkbox" name="course" id="css" value="css" required> css
+        <input type="checkbox" name="course" id="javascript" value="javascript" required> javascript
+        <br/>
+
+        <br/>
+        <button type="submit">login</button>
+        <button type="create new acc">create new acc</button>
+        <button type="reset">reset</button>
+    </FORM>
+</body>
+</html>

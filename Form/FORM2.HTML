@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>APPLICATION FORM</h1>
+    <form action="INDEX.HTML">
+        <LAbel>First Name:</LAbel>
+        <input type="text"
+        id="firstname"
+        name="firstname"
+        required>
+        <LAbel>Last Name :</LAbel>
+        <input type="text"
+        id="lastname"
+        name="lastname"
+        required>
+        <br>
+
+        <br>
+        <label for="dob">date of birth:</label>
+        <input type="date"  id="dob"
+        name="dob"
+        required>
+        <label for="Age">Age</label>
+        <select name="number" id="Age"></select>
+        <input id="number" list="Age" />
+    <datalist id="genders">
+        <option value="male"></option>
+        <option value="female"></option>
+        <option value="other"></option>
+    </datalist>
+        <br>
+
+        <br>
+        <label for="gender">select gender:</label>
+        <input id="gender" list="genders" />
+    <datalist id="genders">
+        <option value="male"></option>
+        <option value="female"></option>
+        <option value="other"></option>
+    </datalist>
+<label for="Email Address">Email Address:</label>
+<input type="text"
+        id="emailaddress"
+        name="emailaddress"
+        placeholder="Enter Email Address"
+        required>
+        <br>
+
+        <br>
+        <label for="Positions Available">Positions Available:</label>
+        <input type="radio" name="Position" id="Junior Developer" value="Junior Developer" required> Junior Developer
+        <input type="radio" name="Position" id="Mid Level Developer" value="Mid Level Developer" required>Mid Level Developer
+        <input type="radio" name="Position" id="Senior Developer" value="Senior Developer" required> Senior Developer
+        <br/>
+        <br/>
+
+        <br/>
+        <span>Programming Languages:</span>
+        <input type="checkbox" name="Languages" id="java" value="java" required> java
+        <input type="checkbox" name="Languages" id="html" value="html" required> html
+        <input type="checkbox" name="Languages" id="css" value="css" required> css
+        <input type="checkbox" name="Languages" id="javascript" value="javascript" required> javascript
+        <br/>
+
+        <br>
+        <label for="Password">Password:</label>
+        <INPUT
+        type="password"
+        id="password"
+        placeholder="enter password"
+        required></INPUT>
+        <label for="Password">Password:</label>
+        <INPUT
+        type="confirm password"
+        id="confirm password"
+        placeholder="confirm password"
+        required></INPUT>
+        <br/>
+
+        <br>
+
+<button type="submit">Submit</button>
+<button type="submit">Reset</button>
+
+    </form>
+</body>
+</html>
