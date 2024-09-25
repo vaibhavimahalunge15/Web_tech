@@ -1,0 +1,59 @@
+html {
+    font-size: 25px;
+  }
+  
+  .container {
+    background: lightseagreen;
+    /* absolute units*/
+  
+    /* height: 50mm;
+      width: 50mm;
+  
+      height: 5cm;
+      width: 5cm;
+  
+      height: 3in;
+      width: 3in;
+  
+      height: 100pt;
+      width: 100pt;
+  
+      height: 100pc;
+      width: 100pc; */
+  
+    height: 60px;
+    width: 600px;
+  }
+  
+  .demo {
+    font-size: 20px;
+  }
+  
+  .container2 {
+    background: lightslategray;
+    /* relative units */
+  
+    font-size: 20px;
+    border: 1px solid black;
+  }
+  
+  .demo2 {
+    font-size: 2em;
+    /* font-size: 1.5rem; */
+  }
+  
+  .s1 {
+    /* width: 80%;
+      height: 300px; */
+    background: lightskyblue;
+    height: 30vh;
+    width: 90vw;
+    border: 1px solid black;
+  }
+  
+  .s1 > article {
+    width: 90%;
+    border: 1px solid black;
+    height: 40%;
+  }
+  
