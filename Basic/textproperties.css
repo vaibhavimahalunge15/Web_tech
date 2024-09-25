@@ -1,0 +1,29 @@
+.head{
+    color: hotpink;
+    text-align: center;
+    /* text-align: right; */
+    text-shadow: 2px 2px 1px blue;
+}
+.para{
+    font-size: 25px;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+    /* letter-spacing: 20px; */
+    /* letter-spacing: 10px; */
+    text-indent: 60px;
+}
+h3{
+    font-size: 30px;
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    text-decoration: line-through;
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
+ul > li{
+    list-style: none;
+}
