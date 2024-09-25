@@ -1,0 +1,11 @@
+.container h1{
+    background: hotpink;
+    color: red;
+}
+.container{
+    background: hotpink;
+    color: red;
+}
+.container > section > h2 + h1{
+    background: violet ;
+}

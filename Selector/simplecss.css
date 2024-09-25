@@ -1,0 +1,32 @@
+*{
+    background: khaki;
+
+}
+#head{
+    background: goldenrod;
+}
+.demo{
+    background: black;
+    color: white;
+}
+.control
+{
+    background: hotpink;
+    color: red;
+}
+#head
+{
+    background: blueviolet;
+
+}
+.demo{
+    background: tan;
+}
+span{
+    background: darkcyan;
+}
+span,
+article,
+#hero{
+    background: darkgray;
+}

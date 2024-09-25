@@ -1,0 +1,12 @@
+.container > section > h2 ~ h1
+{
+background: violet;
+}
+form > input[type="text"]
+{
+    background: aqua;
+}
+form > input[required]
+{
+    background: mediumblue;
+}
