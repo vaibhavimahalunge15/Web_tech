@@ -1,0 +1,19 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+}
+
+/* Q1) */
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
