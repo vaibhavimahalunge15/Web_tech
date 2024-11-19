@@ -1,0 +1,26 @@
+/* DOM PART 1 */
+/* .box{
+ height: 100px;
+ width: 100px;
+ border: 1px solid black;
+ margin: 5px;
+ text-align: center;
+ background-color: aquamarine;   
+} */
+
+/* DOM PART 2 */
+/* #box {
+    height: 250px;
+    width: 100px;
+    background-color: aqua;
+    color: black;
+    border: 1px solid black;
+} */
+
+.content{
+    color: red;
+}
+
+.newClass{
+    background-color: blueviolet;
+}
